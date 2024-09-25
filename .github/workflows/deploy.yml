@@ -36,7 +36,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./m3u
-          enable_jekyll: true
-         
+          enable_jekyll: true       
+        
+           cname: iptv-sources.pages.dev
 
-      
+          
